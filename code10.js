@@ -19,10 +19,34 @@ function search(array,num){
   }
   
 return index
-  
-  
-  
+   
 }
+
+/*function func(arg1,arg2){
+  let sorted = arg1.sort((a,b)=>a-b)
+  //let x = -1
+  //let result = false
+  let a = 0
+  let b = arg1.length-1
+  
+  while(a<= b){
+      let pointer = Math.floor((a+b)/2)
+     // console.log('mid '+pointer)
+      if(arg1[pointer] == arg2){
+       // result =true
+        //x = pointer
+        return pointer
+      }else if(arg1[pointer]< arg2){
+          a = pointer + 1          
+      }else{
+        b = pointer -1
+      }
+  }
+  
+//return  x
+  
+}*/
+
 //
 //
 //
